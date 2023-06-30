@@ -28,8 +28,8 @@ function letterCombinations(input_digit) {
     }
   }
 
-  if (digits.length !== 0) {
-    backtrack('', digits);
+  if (input_digit.length !== 0) {
+    backtrack('', input_digit);
   }
 
   return combinations.sort();
